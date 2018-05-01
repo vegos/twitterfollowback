@@ -1,0 +1,8 @@
+Script for populating a database with twitter followers.
+
+The script gets a list of the followers, then checks if they are friends
+and creates friendship.
+It also sends a direct message (and destroy/delete it after that).
+
+Make a crontab entry to run twice a day (twitter API has limitations on
+requests) and every user that follows you will be followed back automatically.
